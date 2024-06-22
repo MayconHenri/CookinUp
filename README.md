@@ -51,4 +51,3 @@ Sinta-se à vontade para enviar pull requests e propor melhorias para o projeto.
 ### Licença
 
 Este projeto é licenciado sob a MIT License.
-```
