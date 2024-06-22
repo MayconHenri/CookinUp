@@ -1,40 +1,54 @@
-# cookin-up
+# Cookin' Up
 
-This template should help get you started developing with Vue 3 in Vite.
+## Descrição
 
-## Recommended IDE Setup
+Cookin' Up é uma aplicação para entusiastas culinários explorarem novas receitas diariamente, utilizando ingredientes disponíveis. Este projeto é construído com Vue.js e TypeScript.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Funcionalidades Principais
 
-## Type Support for `.vue` Imports in TS
+- **Exploração de Receitas:** Explore novas receitas diariamente com os ingredientes disponíveis.
+- **Lista de Ingredientes:** Mantenha uma lista dinâmica de ingredientes selecionados para suas receitas.
+- **Categorias de Ingredientes:** Organização por categorias de ingredientes para facilitar a seleção.
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+## Como Usar
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+### Instalação
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+1. Clone o repositório:
 
-## Customize configuration
+   ```bash
+   git clone https://github.com/seu-usuario/cookin-up.git
+   ```
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+2. Instale as dependências do frontend:
 
-## Project Setup
+   ```bash
+   cd cookin-up/frontend
+   npm install
+   ```
 
-```sh
-npm install
-```
+3. Inicie o servidor de desenvolvimento:
 
-### Compile and Hot-Reload for Development
+   ```bash
+   npm run dev
+   ```
 
-```sh
-npm run dev
-```
+### Personalização
 
-### Type-Check, Compile and Minify for Production
+O arquivo `.env` deve ser configurado com as variáveis necessárias para o ambiente de desenvolvimento.
 
-```sh
-npm run build
+### Contribuindo
+
+Sinta-se à vontade para enviar pull requests e propor melhorias para o projeto.
+
+### Tecnologias Utilizadas
+
+- **Frontend:** Vue.js, TypeScript, CSS
+- **Componentes:** Vue Component System
+- **Gerenciamento de Estado:** Vue Composition API
+- **Estilo:** CSS com suporte a scoping
+
+### Licença
+
+Este projeto é licenciado sob a MIT License.
 ```
